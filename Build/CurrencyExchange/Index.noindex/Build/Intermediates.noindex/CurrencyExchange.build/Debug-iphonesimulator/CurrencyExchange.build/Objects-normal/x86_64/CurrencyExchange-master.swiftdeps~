@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "8cd7c4b5be8f2b808c8dfb8fef88b317e453d8b05f9225c28ed82fce246ac707"
+build_start_time: [1690832873, 570103168]
+build_end_time: [1690832879, 50797939]
+inputs:
+  "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/AppDelegate.swift": [1690832867, 23957729]
+  "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/SceneDelegate.swift": [1690832867, 34722089]
+  "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/ViewController.swift": [1690832867, 37798881]

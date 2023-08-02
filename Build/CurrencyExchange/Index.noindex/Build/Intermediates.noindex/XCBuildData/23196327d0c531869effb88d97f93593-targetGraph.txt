@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+CurrencyExchange in CurrencyExchange, no dependencies
+CurrencyExchange in CurrencyExchange, no dependencies
+CurrencyExchangeTests in CurrencyExchange, depends on:
+CurrencyExchange in CurrencyExchange (explicit)
+CurrencyExchangeTests in CurrencyExchange, depends on:
+CurrencyExchange in CurrencyExchange (explicit)
+CurrencyExchangeTests in CurrencyExchange, no dependencies
+CurrencyExchangeUITests in CurrencyExchange, depends on:
+CurrencyExchange in CurrencyExchange (explicit)
+CurrencyExchangeUITests in CurrencyExchange, depends on:
+CurrencyExchange in CurrencyExchange (explicit)
+CurrencyExchangeUITests in CurrencyExchange, no dependencies

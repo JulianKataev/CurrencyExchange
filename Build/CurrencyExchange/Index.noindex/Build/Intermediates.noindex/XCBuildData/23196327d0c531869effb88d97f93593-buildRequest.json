@@ -1,0 +1,64 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "2583446456c169795de18732d557cd799176df5508f18ffdfb4b6e810d752ee9"
+    },
+    {
+      "guid" : "2583446456c169795de18732d557cd791aeec11d79f5f993f4e0cb8802b56b6a"
+    },
+    {
+      "guid" : "2583446456c169795de18732d557cd794ff46cf56e4183ef6efe035d4436853d"
+    }
+  ],
+  "containerPath" : "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/JulianKataev/Dev/CurrencyExchange/Build/CurrencyExchange/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/JulianKataev/Dev/CurrencyExchange/Build/CurrencyExchange/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/JulianKataev/Dev/CurrencyExchange/Build",
+      "indexDataStoreFolderPath" : "/Users/JulianKataev/Dev/CurrencyExchange/Build/CurrencyExchange/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/JulianKataev/Dev/CurrencyExchange/Build/CurrencyExchange/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/JulianKataev/Dev/CurrencyExchange/Build/CurrencyExchange/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/JulianKataev/Dev/CurrencyExchange/Build/CurrencyExchange/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
