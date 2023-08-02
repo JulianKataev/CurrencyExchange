@@ -1,9 +1,3 @@
-//
-//  CurrencyExchangeInteractor.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 01.08.2023.
-//
 import Foundation
 
 // FIXME: Хорошее правило: один тип — один файл. Вынеси интерефейс в свой собственный

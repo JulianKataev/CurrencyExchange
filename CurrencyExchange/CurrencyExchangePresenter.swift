@@ -1,10 +1,3 @@
-//
-//  CurrencyExchangePresenter.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 31.07.2023.
-//
-
 // FIXME: One type — One source file
 protocol CurrencyExchangePresenterInputProtocol: AnyObject {
     func viewDidLoad()

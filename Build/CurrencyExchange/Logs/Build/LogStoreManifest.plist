@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>02993000-CD1C-4CB4-B693-91F2B954CB76</key>
+		<key>0BE81D12-BA8E-4757-90A3-ED909F4155E0</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>02993000-CD1C-4CB4-B693-91F2B954CB76.xcactivitylog</string>
+			<string>0BE81D12-BA8E-4757-90A3-ED909F4155E0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>712602568.30632496</real>
+			<real>712686897.08576298</real>
 			<key>timeStoppedRecording</key>
-			<real>712602568.42655003</real>
+			<real>712686899.30020106</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>02993000-CD1C-4CB4-B693-91F2B954CB76</string>
+			<string>0BE81D12-BA8E-4757-90A3-ED909F4155E0</string>
 		</dict>
-		<key>0342C088-46FE-4C7B-B4D6-2DB52CF67AC8</key>
+		<key>2904215C-A5AB-4B13-A4AE-E4DA66E9F536</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0342C088-46FE-4C7B-B4D6-2DB52CF67AC8.xcactivitylog</string>
+			<string>2904215C-A5AB-4B13-A4AE-E4DA66E9F536.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CurrencyExchange project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CurrencyExchange</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CurrencyExchange</string>
+			<key>timeStartedRecording</key>
+			<real>712687069.50488198</real>
+			<key>timeStoppedRecording</key>
+			<real>712687071.03753102</real>
+			<key>title</key>
+			<string>Build CurrencyExchange</string>
+			<key>uniqueIdentifier</key>
+			<string>2904215C-A5AB-4B13-A4AE-E4DA66E9F536</string>
+		</dict>
+		<key>7C073747-A58F-4A21-A897-CE7A456F4902</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7C073747-A58F-4A21-A897-CE7A456F4902.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +100,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>712614811.05145001</real>
+			<real>712687072.77136397</real>
 			<key>timeStoppedRecording</key>
-			<real>712614811.437572</real>
+			<real>712687073.08502698</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>0342C088-46FE-4C7B-B4D6-2DB52CF67AC8</string>
+			<string>7C073747-A58F-4A21-A897-CE7A456F4902</string>
 		</dict>
-		<key>05BFBC88-5B70-4A9E-A70A-2A87391C99FC</key>
+		<key>7DDEE041-40D2-4529-9009-D1A073A28ECA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>05BFBC88-5B70-4A9E-A70A-2A87391C99FC.xcactivitylog</string>
+			<string>7DDEE041-40D2-4529-9009-D1A073A28ECA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +134,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>712646373.20489597</real>
+			<real>712687104.60372102</real>
 			<key>timeStoppedRecording</key>
-			<real>712646373.972399</real>
+			<real>712687105.214113</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>05BFBC88-5B70-4A9E-A70A-2A87391C99FC</string>
+			<string>7DDEE041-40D2-4529-9009-D1A073A28ECA</string>
 		</dict>
-		<key>152A0D4E-D681-4F2B-B3D3-25E0B6338A76</key>
+		<key>BFB3F6B1-DE87-43EE-9F93-38618DBDD3B7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -117,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>152A0D4E-D681-4F2B-B3D3-25E0B6338A76.xcactivitylog</string>
+			<string>BFB3F6B1-DE87-43EE-9F93-38618DBDD3B7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +168,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>712614194.68513596</real>
+			<real>712686955.93420005</real>
 			<key>timeStoppedRecording</key>
-			<real>712614194.77233899</real>
+			<real>712686957.22253501</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>152A0D4E-D681-4F2B-B3D3-25E0B6338A76</string>
+			<string>BFB3F6B1-DE87-43EE-9F93-38618DBDD3B7</string>
 		</dict>
-		<key>1890A879-C8C9-4094-B77B-C09B8DF7E9D3</key>
+		<key>CAEF0ECB-8103-4AC3-B7A5-96745CBACBC4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -151,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1890A879-C8C9-4094-B77B-C09B8DF7E9D3.xcactivitylog</string>
+			<string>CAEF0ECB-8103-4AC3-B7A5-96745CBACBC4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +202,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>712646935.83943701</real>
+			<real>712687110.569453</real>
 			<key>timeStoppedRecording</key>
-			<real>712646936.82522297</real>
+			<real>712687112.03706098</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>1890A879-C8C9-4094-B77B-C09B8DF7E9D3</string>
+			<string>CAEF0ECB-8103-4AC3-B7A5-96745CBACBC4</string>
 		</dict>
-		<key>2D40BCE9-1369-4A45-9A8A-A87CE0C79AA4</key>
+		<key>D59542F0-6D0D-41F6-B9D0-8F025353F3F4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -185,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2D40BCE9-1369-4A45-9A8A-A87CE0C79AA4.xcactivitylog</string>
+			<string>D59542F0-6D0D-41F6-B9D0-8F025353F3F4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +236,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>712646668.21624005</real>
+			<real>712686906.83771396</real>
 			<key>timeStoppedRecording</key>
-			<real>712646668.98199797</real>
+			<real>712686907.87924099</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>2D40BCE9-1369-4A45-9A8A-A87CE0C79AA4</string>
+			<string>D59542F0-6D0D-41F6-B9D0-8F025353F3F4</string>
 		</dict>
-		<key>373878B5-C35A-4D42-B13C-ECCEE41FF6FD</key>
+		<key>E5D031E0-ECFE-4E17-B594-0887FDC5EDCA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -219,41 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>373878B5-C35A-4D42-B13C-ECCEE41FF6FD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712600392.04822195</real>
-			<key>timeStoppedRecording</key>
-			<real>712600392.46398699</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>373878B5-C35A-4D42-B13C-ECCEE41FF6FD</string>
-		</dict>
-		<key>3BE4D8E2-9E95-4015-AABA-9B03F6C8ADAD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3BE4D8E2-9E95-4015-AABA-9B03F6C8ADAD.xcactivitylog</string>
+			<string>E5D031E0-ECFE-4E17-B594-0887FDC5EDCA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,1339 +270,13 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>712602412.95343494</real>
+			<real>712648715.87060404</real>
 			<key>timeStoppedRecording</key>
-			<real>712602413.12347305</real>
+			<real>712648718.41574597</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>3BE4D8E2-9E95-4015-AABA-9B03F6C8ADAD</string>
-		</dict>
-		<key>40FEF421-2D7C-433D-B5F3-5F9EF6316E74</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>40FEF421-2D7C-433D-B5F3-5F9EF6316E74.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712646950.948578</real>
-			<key>timeStoppedRecording</key>
-			<real>712646951.783952</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>40FEF421-2D7C-433D-B5F3-5F9EF6316E74</string>
-		</dict>
-		<key>4168985A-3417-4F5F-BA82-4D6AE354E050</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4168985A-3417-4F5F-BA82-4D6AE354E050.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712602541.20588398</real>
-			<key>timeStoppedRecording</key>
-			<real>712602543.60047805</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>4168985A-3417-4F5F-BA82-4D6AE354E050</string>
-		</dict>
-		<key>4BA69458-D657-4AF1-A675-F279E42771AE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4BA69458-D657-4AF1-A675-F279E42771AE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712614272.14926195</real>
-			<key>timeStoppedRecording</key>
-			<real>712614272.25703001</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>4BA69458-D657-4AF1-A675-F279E42771AE</string>
-		</dict>
-		<key>5509BB23-9141-42F7-A7A6-3D2C8695F87C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5509BB23-9141-42F7-A7A6-3D2C8695F87C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712614875.65585005</real>
-			<key>timeStoppedRecording</key>
-			<real>712614875.73246396</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>5509BB23-9141-42F7-A7A6-3D2C8695F87C</string>
-		</dict>
-		<key>557F5132-BAA0-48A9-ABB6-273237273CD4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>557F5132-BAA0-48A9-ABB6-273237273CD4.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712614805.94333994</real>
-			<key>timeStoppedRecording</key>
-			<real>712614806.36530006</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>557F5132-BAA0-48A9-ABB6-273237273CD4</string>
-		</dict>
-		<key>58640055-0F31-48C9-89C5-0B0A59800175</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>58640055-0F31-48C9-89C5-0B0A59800175.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712647039.01511204</real>
-			<key>timeStoppedRecording</key>
-			<real>712647039.76437998</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>58640055-0F31-48C9-89C5-0B0A59800175</string>
-		</dict>
-		<key>597A45BB-6F5C-4344-8C13-8BDA421A3B15</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>597A45BB-6F5C-4344-8C13-8BDA421A3B15.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712614843.31166196</real>
-			<key>timeStoppedRecording</key>
-			<real>712614844.72842598</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>597A45BB-6F5C-4344-8C13-8BDA421A3B15</string>
-		</dict>
-		<key>5CFE59FD-941F-4E0A-99FD-7E0D37609B15</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5CFE59FD-941F-4E0A-99FD-7E0D37609B15.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712615053.12759495</real>
-			<key>timeStoppedRecording</key>
-			<real>712615053.23352301</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>5CFE59FD-941F-4E0A-99FD-7E0D37609B15</string>
-		</dict>
-		<key>601C6D35-DA7D-49C4-8603-2063E1537CEE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>601C6D35-DA7D-49C4-8603-2063E1537CEE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712601860.084589</real>
-			<key>timeStoppedRecording</key>
-			<real>712601861.62522399</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>601C6D35-DA7D-49C4-8603-2063E1537CEE</string>
-		</dict>
-		<key>62A2002A-83A2-4D39-B5F6-51A36FC53D65</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>62A2002A-83A2-4D39-B5F6-51A36FC53D65.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712601730.62273598</real>
-			<key>timeStoppedRecording</key>
-			<real>712601731.35271502</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>62A2002A-83A2-4D39-B5F6-51A36FC53D65</string>
-		</dict>
-		<key>65A9A06A-8013-4050-9324-486770547776</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>65A9A06A-8013-4050-9324-486770547776.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712646126.10412204</real>
-			<key>timeStoppedRecording</key>
-			<real>712646126.28076196</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>65A9A06A-8013-4050-9324-486770547776</string>
-		</dict>
-		<key>69B5506E-038A-4833-B22F-3675DB7DF3A7</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>69B5506E-038A-4833-B22F-3675DB7DF3A7.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712602609.09108901</real>
-			<key>timeStoppedRecording</key>
-			<real>712602609.17822599</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>69B5506E-038A-4833-B22F-3675DB7DF3A7</string>
-		</dict>
-		<key>843D74E6-B178-45CD-ABE7-D840EB28F42C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>843D74E6-B178-45CD-ABE7-D840EB28F42C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712599117.861817</real>
-			<key>timeStoppedRecording</key>
-			<real>712599118.54458106</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>843D74E6-B178-45CD-ABE7-D840EB28F42C</string>
-		</dict>
-		<key>85329EC9-FBE5-464C-85A4-9A1A0F5CF4D8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>85329EC9-FBE5-464C-85A4-9A1A0F5CF4D8.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712614150.83427894</real>
-			<key>timeStoppedRecording</key>
-			<real>712614150.94372904</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>85329EC9-FBE5-464C-85A4-9A1A0F5CF4D8</string>
-		</dict>
-		<key>8AB9E981-9B2B-48E7-8F6D-94210BC5C7E4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8AB9E981-9B2B-48E7-8F6D-94210BC5C7E4.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712614649.52839601</real>
-			<key>timeStoppedRecording</key>
-			<real>712614650.73985898</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>8AB9E981-9B2B-48E7-8F6D-94210BC5C7E4</string>
-		</dict>
-		<key>8E77BBEC-8820-4955-8A29-1FABAB7F15BD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8E77BBEC-8820-4955-8A29-1FABAB7F15BD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712646084.97017705</real>
-			<key>timeStoppedRecording</key>
-			<real>712646085.64039099</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>8E77BBEC-8820-4955-8A29-1FABAB7F15BD</string>
-		</dict>
-		<key>90350600-9570-4D30-88C8-DE01BD648C7B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>90350600-9570-4D30-88C8-DE01BD648C7B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712607051.85888803</real>
-			<key>timeStoppedRecording</key>
-			<real>712607051.97154295</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>90350600-9570-4D30-88C8-DE01BD648C7B</string>
-		</dict>
-		<key>9DF1CE6C-B367-467F-8295-767448547267</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>9DF1CE6C-B367-467F-8295-767448547267.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712646122.35453701</real>
-			<key>timeStoppedRecording</key>
-			<real>712646123.43658102</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>9DF1CE6C-B367-467F-8295-767448547267</string>
-		</dict>
-		<key>A3473D20-8B12-4FEA-83A6-F0A112013CEF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A3473D20-8B12-4FEA-83A6-F0A112013CEF.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712646344.72017503</real>
-			<key>timeStoppedRecording</key>
-			<real>712646345.59761298</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>A3473D20-8B12-4FEA-83A6-F0A112013CEF</string>
-		</dict>
-		<key>A60E79F3-6E9C-4429-96FD-8F813F12BC04</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A60E79F3-6E9C-4429-96FD-8F813F12BC04.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712600367.46026194</real>
-			<key>timeStoppedRecording</key>
-			<real>712600367.96830595</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>A60E79F3-6E9C-4429-96FD-8F813F12BC04</string>
-		</dict>
-		<key>AB1F3B0B-93D7-40B4-AB30-10415451B572</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>AB1F3B0B-93D7-40B4-AB30-10415451B572.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712647189.54796505</real>
-			<key>timeStoppedRecording</key>
-			<real>712647190.36928499</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>AB1F3B0B-93D7-40B4-AB30-10415451B572</string>
-		</dict>
-		<key>B3DA5F5F-3937-4E1B-9F14-A7D764083F3E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B3DA5F5F-3937-4E1B-9F14-A7D764083F3E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712614982.89478099</real>
-			<key>timeStoppedRecording</key>
-			<real>712614983.77867603</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>B3DA5F5F-3937-4E1B-9F14-A7D764083F3E</string>
-		</dict>
-		<key>C02D7A62-4129-4ADA-B7C5-E5A049B3B2A9</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C02D7A62-4129-4ADA-B7C5-E5A049B3B2A9.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712613947.54899299</real>
-			<key>timeStoppedRecording</key>
-			<real>712613950.38328898</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>C02D7A62-4129-4ADA-B7C5-E5A049B3B2A9</string>
-		</dict>
-		<key>C1FC299E-9FE4-416A-8BD6-B13D72237987</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C1FC299E-9FE4-416A-8BD6-B13D72237987.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712602406.68275404</real>
-			<key>timeStoppedRecording</key>
-			<real>712602409.79749799</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>C1FC299E-9FE4-416A-8BD6-B13D72237987</string>
-		</dict>
-		<key>CB32914E-91E6-4C82-A761-CE8743B74012</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CB32914E-91E6-4C82-A761-CE8743B74012.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712646348.99167097</real>
-			<key>timeStoppedRecording</key>
-			<real>712646349.05555701</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>CB32914E-91E6-4C82-A761-CE8743B74012</string>
-		</dict>
-		<key>CD04DB36-66DC-41E0-A4E0-69066834D54D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CD04DB36-66DC-41E0-A4E0-69066834D54D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712614294.67390597</real>
-			<key>timeStoppedRecording</key>
-			<real>712614294.76805997</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>CD04DB36-66DC-41E0-A4E0-69066834D54D</string>
-		</dict>
-		<key>CD7F6441-74A3-4A55-8489-ADC66A9773FE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>CD7F6441-74A3-4A55-8489-ADC66A9773FE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712646309.14033103</real>
-			<key>timeStoppedRecording</key>
-			<real>712646310.28213596</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>CD7F6441-74A3-4A55-8489-ADC66A9773FE</string>
-		</dict>
-		<key>D2DA243D-7795-495C-A8E4-E0D56229675C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D2DA243D-7795-495C-A8E4-E0D56229675C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712614029.64859903</real>
-			<key>timeStoppedRecording</key>
-			<real>712614029.75768304</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>D2DA243D-7795-495C-A8E4-E0D56229675C</string>
-		</dict>
-		<key>D6181F00-7ACA-4729-8512-1A5093C1E34C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D6181F00-7ACA-4729-8512-1A5093C1E34C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712645955.16959298</real>
-			<key>timeStoppedRecording</key>
-			<real>712645955.71269095</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>D6181F00-7ACA-4729-8512-1A5093C1E34C</string>
-		</dict>
-		<key>D6B4858E-01D4-4085-BBF7-44C51970097B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D6B4858E-01D4-4085-BBF7-44C51970097B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712647847.60107601</real>
-			<key>timeStoppedRecording</key>
-			<real>712647851.28903794</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>D6B4858E-01D4-4085-BBF7-44C51970097B</string>
-		</dict>
-		<key>DB297CF3-9E9A-4708-8527-AFC7139B698D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>DB297CF3-9E9A-4708-8527-AFC7139B698D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712613982.20684898</real>
-			<key>timeStoppedRecording</key>
-			<real>712613982.32587194</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>DB297CF3-9E9A-4708-8527-AFC7139B698D</string>
-		</dict>
-		<key>DBED7E04-7FAD-4866-9D0B-A2CDBB0E1486</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>DBED7E04-7FAD-4866-9D0B-A2CDBB0E1486.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712600384.57402897</real>
-			<key>timeStoppedRecording</key>
-			<real>712600385.02515101</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>DBED7E04-7FAD-4866-9D0B-A2CDBB0E1486</string>
-		</dict>
-		<key>E827CE48-C4E9-4792-A07D-34F01EFA6E7A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E827CE48-C4E9-4792-A07D-34F01EFA6E7A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712599224.22976398</real>
-			<key>timeStoppedRecording</key>
-			<real>712599224.75383902</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>E827CE48-C4E9-4792-A07D-34F01EFA6E7A</string>
-		</dict>
-		<key>E9BD7F5D-4701-4C49-8449-623FC4E339AC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E9BD7F5D-4701-4C49-8449-623FC4E339AC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712601629.89001298</real>
-			<key>timeStoppedRecording</key>
-			<real>712601632.19512105</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>E9BD7F5D-4701-4C49-8449-623FC4E339AC</string>
-		</dict>
-		<key>EAC330AC-B1BC-4409-8F0D-D25C7E3ADE09</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>EAC330AC-B1BC-4409-8F0D-D25C7E3ADE09.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712645832.61554003</real>
-			<key>timeStoppedRecording</key>
-			<real>712645833.01998496</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>EAC330AC-B1BC-4409-8F0D-D25C7E3ADE09</string>
-		</dict>
-		<key>EB7964FF-AD6F-4439-A01A-66975F5B4AAF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>EB7964FF-AD6F-4439-A01A-66975F5B4AAF.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712564673.464113</real>
-			<key>timeStoppedRecording</key>
-			<real>712564680.91766906</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>EB7964FF-AD6F-4439-A01A-66975F5B4AAF</string>
-		</dict>
-		<key>EC5B7ED7-BBC4-4A90-9D14-1EEBBD5D97FD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>EC5B7ED7-BBC4-4A90-9D14-1EEBBD5D97FD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712648005.22936296</real>
-			<key>timeStoppedRecording</key>
-			<real>712648006.97959697</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>EC5B7ED7-BBC4-4A90-9D14-1EEBBD5D97FD</string>
-		</dict>
-		<key>FA2F6F60-44C6-4DF8-9575-F126B053AF6D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FA2F6F60-44C6-4DF8-9575-F126B053AF6D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712646647.66416395</real>
-			<key>timeStoppedRecording</key>
-			<real>712646648.50201404</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>FA2F6F60-44C6-4DF8-9575-F126B053AF6D</string>
-		</dict>
-		<key>FDF9111D-9D65-4CF6-AFB1-08FBAB8BFBD4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>FDF9111D-9D65-4CF6-AFB1-08FBAB8BFBD4.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712646164.18778801</real>
-			<key>timeStoppedRecording</key>
-			<real>712646164.25765395</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>FDF9111D-9D65-4CF6-AFB1-08FBAB8BFBD4</string>
+			<string>E5D031E0-ECFE-4E17-B594-0887FDC5EDCA</string>
 		</dict>
 	</dict>
 </dict>

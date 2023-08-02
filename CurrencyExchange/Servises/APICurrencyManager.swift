@@ -1,10 +1,3 @@
-//
-//  APITransferManager.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 01.08.2023.
-//
-
 import Foundation
 
 // FIXME: Обычно API стоит в конце имени, но есть ощущение, что это API рейтов валют, т.е. ExchangeRateRemoteAPI

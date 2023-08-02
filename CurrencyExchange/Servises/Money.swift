@@ -1,10 +1,3 @@
-//
-//  Money.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 01.08.2023.
-//
-
 // FIXME: Деньги — это просто деньги. Что мы знаем о них? — 1) Кол-во 2) Какая валюта
 // FIXME: Т.е. здесь нужен amount типа Amount и currency типа Currency :)
 // FIXME: Если currency убрать, то получится у.е.

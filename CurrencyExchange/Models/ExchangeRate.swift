@@ -1,10 +1,3 @@
-//
-//  ExchangeRate.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 01.08.2023.
-//
-
 class ExchangeRate {
     // FIXME: Что такое ExchangeRate? Это сколько за 1 единицу валюты А можно получить единиц валюты Б
     // FIXME: Из определения видно, что нам нужно:

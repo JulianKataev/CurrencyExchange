@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-CurrencyExchange in CurrencyExchange, no dependencies

@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 31.07.2023.
-//
-
 import UIKit
 import Foundation
 
@@ -42,4 +35,3 @@ extension CurrencyExchangeViewController: CurrencyExchangeViewControllerProtocol
         }
     }
 }
-

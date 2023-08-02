@@ -1,22 +1,7 @@
-//
-//  CurrencyExchangeTests.swift
-//  CurrencyExchangeTests
-//
-//  Created by Юлиан Катаев on 31.07.2023.
-//
-
 import XCTest
 @testable import CurrencyExchange
 
 final class CurrencyExchangeTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
     
     func testExchangeAmount() {
         let amount = Amount(amount: 1000.0)

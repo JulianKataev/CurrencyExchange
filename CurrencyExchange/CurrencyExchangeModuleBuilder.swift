@@ -1,10 +1,3 @@
-//
-//  CurrencyExchangeModuleBuilder.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 01.08.2023.
-//
-
 import UIKit
 
 // FIXME: Это stateless (не хранящий состояние) класс с единственным методом
