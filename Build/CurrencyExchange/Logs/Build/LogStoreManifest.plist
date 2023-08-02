@@ -1264,6 +1264,40 @@
 			<key>uniqueIdentifier</key>
 			<string>D6181F00-7ACA-4729-8512-1A5093C1E34C</string>
 		</dict>
+		<key>D6B4858E-01D4-4085-BBF7-44C51970097B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D6B4858E-01D4-4085-BBF7-44C51970097B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CurrencyExchange project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CurrencyExchange</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CurrencyExchange</string>
+			<key>timeStartedRecording</key>
+			<real>712647847.60107601</real>
+			<key>timeStoppedRecording</key>
+			<real>712647851.28903794</real>
+			<key>title</key>
+			<string>Build CurrencyExchange</string>
+			<key>uniqueIdentifier</key>
+			<string>D6B4858E-01D4-4085-BBF7-44C51970097B</string>
+		</dict>
 		<key>DB297CF3-9E9A-4708-8527-AFC7139B698D</key>
 		<dict>
 			<key>className</key>
@@ -1467,6 +1501,40 @@
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
 			<string>EB7964FF-AD6F-4439-A01A-66975F5B4AAF</string>
+		</dict>
+		<key>EC5B7ED7-BBC4-4A90-9D14-1EEBBD5D97FD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EC5B7ED7-BBC4-4A90-9D14-1EEBBD5D97FD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CurrencyExchange project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CurrencyExchange</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CurrencyExchange</string>
+			<key>timeStartedRecording</key>
+			<real>712648005.22936296</real>
+			<key>timeStoppedRecording</key>
+			<real>712648006.97959697</real>
+			<key>title</key>
+			<string>Build CurrencyExchange</string>
+			<key>uniqueIdentifier</key>
+			<string>EC5B7ED7-BBC4-4A90-9D14-1EEBBD5D97FD</string>
 		</dict>
 		<key>FA2F6F60-44C6-4DF8-9575-F126B053AF6D</key>
 		<dict>

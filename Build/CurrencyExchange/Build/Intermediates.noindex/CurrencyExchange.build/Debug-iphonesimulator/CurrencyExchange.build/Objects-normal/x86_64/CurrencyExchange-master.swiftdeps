@@ -1,13 +1,13 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "346f02509bced054b2dd183fb688d50d04ef424a57ae58f79251b767e6e24882"
-build_start_time: [1690954389, 711580991]
-build_end_time: [1690954390, 364560127]
+build_start_time: [1690955049, 942424058]
+build_end_time: [1690955049, 998845100]
 inputs:
   "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Application/AppDelegate.swift": [1690832867, 23957729]
   "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Application/SceneDelegate.swift": [1690909606, 597462654]
   "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/CurrencyExchangeInteractor.swift": [1690953509, 133049011]
   "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/CurrencyExchangeModuleBuilder.swift": [1690909606, 651227951]
-  "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/CurrencyExchangePresenter.swift": [1690954389, 535634517]
+  "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/CurrencyExchangePresenter.swift": !private [1690955047, 588901042]
   "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/CurrencyExchangeViewController.swift": [1690954150, 938066482]
   "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Models/Amount.swift": [1690871873, 422537326]
   "/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Models/Currency.swift": [1690871873, 410014629]
