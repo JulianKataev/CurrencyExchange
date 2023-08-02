@@ -1,11 +1,5 @@
 import Foundation
 
-// FIXME: Хорошее правило: один тип — один файл. Вынеси интерефейс в свой собственный
-protocol CurrencyExchangeInteractorProtocol: AnyObject {
-    // FIXME: Typo (completion, NOT complition)
-    func execute(amount: Float, fromCurrencyCode: String, toCurrencyCode: String, complition: @escaping (Money) -> Void)
-}
-
 class CurrencyExchangeInteractor: CurrencyExchangeInteractorProtocol {
     weak var presenter: CurrencyExchangePresenterOutputProtocol?
     // FIXME: Где интерфейс, Лебовски?! Здесь прямая зависимость от APICurrencyManager класса, а должна быть от интерфейса

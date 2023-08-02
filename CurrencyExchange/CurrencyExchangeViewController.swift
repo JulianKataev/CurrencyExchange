@@ -1,16 +1,11 @@
 import UIKit
 import Foundation
 
-// FIXME: один тип — один файл
-protocol CurrencyExchangeViewControllerProtocol: AnyObject {
-    func updateAmountUzsTextLabel(with amountUsz: String)
-}
-
 class CurrencyExchangeViewController: UIViewController {
     @IBOutlet private var amountKztTextField: UITextField!
     @IBOutlet private var amountUzsLabel: UILabel!
     
-    var presenter: CurrencyExchangePresenterInputProtocol?
+    weak var presenter: CurrencyExchangePresenterInputProtocol?
     
     @IBAction func exchangeButtonDidTap() {
         if let amountKzt = amountKztTextField.text {
@@ -22,8 +17,6 @@ class CurrencyExchangeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // FIXME: ты же вроде ослабляешь ссылку в презентере
-        // FIXME: здесь (ссылка НА) презентер мне кажется обязательным и не опциональным
         presenter?.viewDidLoad()
     }
 }

@@ -1,18 +1,13 @@
-// FIXME: One type — One source file
-protocol CurrencyExchangePresenterInputProtocol: AnyObject {
-    func viewDidLoad()
-    func onConvertCurrency(amountString: String, fromCurrencyCode: String, toCurrencyCode: String)
-}
-
-protocol CurrencyExchangePresenterOutputProtocol: AnyObject {
-    func showConvertedCurrency(amountFloat: Float)
-}
-
 // FIXME: Перепроверь открытые св-ва классов, мне кажется они должны быть закрытыми и ч/з конструктор инжектиться
 // FIXME: Кроме случаев кольцевых связей, разумеется (нельзя сослаться на вью, которая еще не инстанцирована)
 class CurrencyExchangePresenter {
-    weak var view: CurrencyExchangeViewControllerProtocol?
-    var interactor: CurrencyExchangeInteractorProtocol?
+    private var view: CurrencyExchangeViewControllerProtocol?
+    private var interactor: CurrencyExchangeInteractorProtocol?
+    
+    init(view: CurrencyExchangeViewControllerProtocol? = nil, interactor: CurrencyExchangeInteractorProtocol? = nil) {
+        self.view = view
+        self.interactor = interactor
+    }
 }
 
 extension CurrencyExchangePresenter: CurrencyExchangePresenterInputProtocol {
