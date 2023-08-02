@@ -1,13 +1,10 @@
-// FIXME: Что импортируем? :)
-import Foundation
-
 // FIXME: Довольно абстрактное имя.
 // FIXME: Что мы знаем об этих данных?
 // FIXME: 1) они в HTTP-ответе (HTTP Response)
 // FIXME: 2) конкретно в теле (Payload) ответа
 // FIXME: 3) это результат запроса курса конкретно одной валюты
 // FIXME: Возможно это CurrencyExchangeRateResponsePayload
-struct CurrencyData: Codable {
+struct CurrencyExchangeRateResponsePayload: Codable {
     let result: String
     let provider, documentation, termsOfUse: String
     let timeLastUpdateUnix: Int
