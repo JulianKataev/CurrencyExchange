@@ -6,7 +6,8 @@ class CurrencyExchangeModuleBuilder {
         let viewController = storyboard.instantiateViewController(
             withIdentifier: CurrencyExchangeConstants.MAIN_VC_ID
         ) as! CurrencyExchangeViewController
-        let interactor = CurrencyExchangeInteractor()
+        let exchangeRateRemoteAPImanager = ExchangeRateRemoteAPI()
+        let interactor = CurrencyExchangeInteractor(exchangeRateRemoteAPImanager: exchangeRateRemoteAPImanager)
         let presenter = CurrencyExchangePresenter(view: viewController, interactor: interactor)
         viewController.presenter = presenter
         interactor.presenter = presenter

@@ -1,5 +1,3 @@
-// FIXME: Перепроверь открытые св-ва классов, мне кажется они должны быть закрытыми и ч/з конструктор инжектиться
-// FIXME: Кроме случаев кольцевых связей, разумеется (нельзя сослаться на вью, которая еще не инстанцирована)
 class CurrencyExchangePresenter {
     private var view: CurrencyExchangeViewControllerProtocol?
     private var interactor: CurrencyExchangeInteractorProtocol?
@@ -25,7 +23,7 @@ extension CurrencyExchangePresenter: CurrencyExchangePresenterInputProtocol {
 
         // FIXME: Completion можно в виде замыкающего выражения сдерать method(arg: "abc") { /* completion */ }
         // FIXME: тогда последний аргумент (блок кода или замыкание) без имени сдвинется за скобки
-        self.interactor?.execute(amount: amount, fromCurrencyCode: fromCurrencyCode, toCurrencyCode: toCurrencyCode, complition: { money in
+        self.interactor?.execute(amount: amount, fromCurrencyCode: fromCurrencyCode, toCurrencyCode: toCurrencyCode, completion: { money in
             if let currency = money.amount {
                 self.showConvertedCurrency(amountFloat: currency)
             }

@@ -6,6 +6,7 @@ class CurrencyExchangeViewController: UIViewController {
     @IBOutlet private var amountUzsLabel: UILabel!
     
     weak var presenter: CurrencyExchangePresenterInputProtocol?
+    private currencyCodes: 
     
     @IBAction func exchangeButtonDidTap() {
         if let amountKzt = amountKztTextField.text {

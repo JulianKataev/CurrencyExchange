@@ -1,4 +1,5 @@
 /Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Models/Currency.swift
+/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Servises/ExchangeRateRemoteAPIProtocol.swift
 /Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/CurrencyExchangePresenterOutputProtocol.swift
 /Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/CurrencyExchangeViewControllerProtocol.swift
 /Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/CurrencyExchangeModuleBuilder.swift
@@ -10,8 +11,8 @@
 /Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Application/AppDelegate.swift
 /Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/CurrencyExchangePresenterInputProtocol.swift
 /Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Servises/Money.swift
-/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Servises/CurrencyData.swift
+/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Servises/CurrencyExchangeRateResponsePayload.swift
 /Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Application/SceneDelegate.swift
 /Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Models/ExchangeRate.swift
 /Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/CurrencyExchangeInteractorProtocol.swift
-/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Servises/APICurrencyManager.swift
+/Users/JulianKataev/Dev/CurrencyExchange/CurrencyExchange/Servises/ExchangeRateRemoteAPI.swift

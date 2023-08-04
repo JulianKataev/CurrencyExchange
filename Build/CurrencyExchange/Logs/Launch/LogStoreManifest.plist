@@ -51,51 +51,6 @@
 			<key>uniqueIdentifier</key>
 			<string>1EFAC6B2-CACC-4C07-9FD4-69E27086A275</string>
 		</dict>
-		<key>5459F2FD-4F72-44BE-844E-143DF2E304F8</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>E5D031E0-ECFE-4E17-B594-0887FDC5EDCA</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
-			<key>fileName</key>
-			<string>Run-CurrencyExchange-2023.08.02_08-58-35-+0300.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasConsoleLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>712648715.87038004</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Run CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>5459F2FD-4F72-44BE-844E-143DF2E304F8</string>
-		</dict>
 	</dict>
 </dict>
 </plist>

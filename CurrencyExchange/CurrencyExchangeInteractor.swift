@@ -2,21 +2,22 @@ import Foundation
 
 class CurrencyExchangeInteractor: CurrencyExchangeInteractorProtocol {
     weak var presenter: CurrencyExchangePresenterOutputProtocol?
-    // FIXME: Где интерфейс, Лебовски?! Здесь прямая зависимость от APICurrencyManager класса, а должна быть от интерфейса
-    // FIXME: Это есть прямое нарушение DIP (D в SOLID) — принципа инверсии зависимостей
-    // FIXME: Жду какой-нить ExchangeRateRemoteAPI интерфейс, а здесь конструктор с блек-джеком и шлюхами
-    private let apiCurrencyManager = APICurrencyManager.shared
+    private let exchangeRateRemoteAPImanager: ExchangeRateRemoteAPIProtocol
     
-    func execute(amount: Float, fromCurrencyCode: String, toCurrencyCode: String, complition: @escaping (Money) -> Void) {
+    init(exchangeRateRemoteAPImanager: ExchangeRateRemoteAPIProtocol) {
+        self.exchangeRateRemoteAPImanager = exchangeRateRemoteAPImanager
+    }
+    
+    func execute(amount: Float, fromCurrencyCode: String, toCurrencyCode: String, completion: @escaping (Money) -> Void) {
         let amount = Amount(amount: amount)
-        let currency = Currency(fromCurrency: fromCurrencyCode, toCurrency: toCurrencyCode)
+        let currency = 
 
         // FIXME: На бекграунд поток с не понятным QoS переключился...
         DispatchQueue.global().async {
-            self.apiCurrencyManager.getExchangeRate(currency: currency) { exchangeRate in
+            self.exchangeRateRemoteAPImanager.getExchangeRate(currency: currency) { exchangeRate in
                 let convert = Money().converted(amount: amount, exchangeRate: exchangeRate)
                 // FIXME: ...а обратно на главный не вернулся
-                complition(convert)
+                completion(convert)
             }
         }
     }
