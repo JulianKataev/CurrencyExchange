@@ -1,3 +1,3 @@
 protocol CurrencyExchangePresenterOutputProtocol: AnyObject {
-    func showConvertedCurrency(amountFloat: Float)
+    func showConvertedMoney(money: Money)
 }

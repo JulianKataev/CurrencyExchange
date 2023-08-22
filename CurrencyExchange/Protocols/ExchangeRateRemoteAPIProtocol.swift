@@ -1,3 +1,7 @@
+import Foundation.NSURL
+
 protocol ExchangeRateRemoteAPIProtocol {
-    func getExchangeRate(currency: Currency, completion: @escaping (ExchangeRate) -> Void)
+    func getCurrencyPrice(from baseCurrency: CurrencyCode,
+                          to targetCurrency: CurrencyCode,
+                          completion: @escaping (CurrencyPrice) -> Void)
 }

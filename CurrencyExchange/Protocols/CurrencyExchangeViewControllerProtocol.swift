@@ -1,3 +1,3 @@
 protocol CurrencyExchangeViewControllerProtocol: AnyObject {
-    func updateAmountUzsTextLabel(with amountUsz: String)
+    func updateAmountUzsTextLabel(with string: String)
 }

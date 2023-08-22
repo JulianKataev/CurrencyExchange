@@ -5,14 +5,14 @@ class CurrencyExchangeViewController: UIViewController {
     @IBOutlet private var amountKztTextField: UITextField!
     @IBOutlet private var amountUzsLabel: UILabel!
     
-    weak var presenter: CurrencyExchangePresenterInputProtocol?
-    private currencyCodes: 
+    private let fromCurrency = "KZT"
+    private let toCurrency = "UZS"
+    
+    var presenter: CurrencyExchangePresenterInputProtocol?
     
     @IBAction func exchangeButtonDidTap() {
-        if let amountKzt = amountKztTextField.text {
-            // FIXME: Вью скорее всего не должна знать о кодах валют — это чистая бизнес-логика
-            // FIXME: А значит эти коды ей либо должны поставлять извне, либо эти коды должны указываться в др. месте
-            presenter?.onConvertCurrency(amountString: amountKzt, fromCurrencyCode: "KZT", toCurrencyCode: "UZS")
+        if let string = amountKztTextField.text {
+            presenter?.convertCurrency(fromCurrencyCode: fromCurrency, toCurrencyCode: toCurrency, amountKztText: string)
         }
     }
 
@@ -24,8 +24,6 @@ class CurrencyExchangeViewController: UIViewController {
 
 extension CurrencyExchangeViewController: CurrencyExchangeViewControllerProtocol {
     func updateAmountUzsTextLabel(with amountUsz: String) {
-        DispatchQueue.main.async {
-            self.amountUzsLabel.text = amountUsz
-        }
+        self.amountUzsLabel.text = amountUsz
     }
 }

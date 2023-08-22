@@ -7,7 +7,7 @@ struct CurrencyExchangeRateResponsePayload: Codable {
     let timeNextUpdateUTC: String
     let timeEOLUnix: Int
     let baseCode: String
-    let rates: [String: Float]
+    let rates: [String: Double]
 
     enum CodingKeys: String, CodingKey {
         case result, provider, documentation

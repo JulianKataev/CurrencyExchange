@@ -1,4 +1,4 @@
 protocol CurrencyExchangePresenterInputProtocol: AnyObject {
     func viewDidLoad()
-    func onConvertCurrency(amountString: String, fromCurrencyCode: String, toCurrencyCode: String)
+    func convertCurrency(fromCurrencyCode: String, toCurrencyCode: String, amountKztText: String)
 }
