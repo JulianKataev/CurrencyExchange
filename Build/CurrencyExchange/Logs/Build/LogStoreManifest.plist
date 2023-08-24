@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>04307ABC-CE0B-4886-A449-D688C3073A12</key>
+		<key>0CF47BFE-7062-485C-B3D7-13DCD9F62C3D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>04307ABC-CE0B-4886-A449-D688C3073A12.xcactivitylog</string>
+			<string>0CF47BFE-7062-485C-B3D7-13DCD9F62C3D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714374158.78483903</real>
+			<real>714548256.16971505</real>
 			<key>timeStoppedRecording</key>
-			<real>714374159.19498396</real>
+			<real>714548256.56909597</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>04307ABC-CE0B-4886-A449-D688C3073A12</string>
+			<string>0CF47BFE-7062-485C-B3D7-13DCD9F62C3D</string>
 		</dict>
-		<key>08900EDE-F8F2-43C3-8AB9-5406FBCD4CEF</key>
+		<key>0E2CC991-B022-43A2-9115-C1D91E1C47B3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>08900EDE-F8F2-43C3-8AB9-5406FBCD4CEF.xcactivitylog</string>
+			<string>0E2CC991-B022-43A2-9115-C1D91E1C47B3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714375651.46344495</real>
+			<real>714548507.84960604</real>
 			<key>timeStoppedRecording</key>
-			<real>714375651.89646196</real>
+			<real>714548508.581761</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>08900EDE-F8F2-43C3-8AB9-5406FBCD4CEF</string>
+			<string>0E2CC991-B022-43A2-9115-C1D91E1C47B3</string>
 		</dict>
-		<key>271CBB6C-DF0D-4936-B659-44A1C6371885</key>
+		<key>1990CD6C-BEC4-491A-9A6C-CAD6BC5D21AC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,41 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>271CBB6C-DF0D-4936-B659-44A1C6371885.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>714377282.30071104</real>
-			<key>timeStoppedRecording</key>
-			<real>714377282.46071005</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>271CBB6C-DF0D-4936-B659-44A1C6371885</string>
-		</dict>
-		<key>293AECA1-9EBE-4061-BC13-D9E182AD69CA</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>293AECA1-9EBE-4061-BC13-D9E182AD69CA.xcactivitylog</string>
+			<string>1990CD6C-BEC4-491A-9A6C-CAD6BC5D21AC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +100,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714030811.11878598</real>
+			<real>714547460.48696899</real>
 			<key>timeStoppedRecording</key>
-			<real>714030811.705338</real>
+			<real>714547460.985708</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>293AECA1-9EBE-4061-BC13-D9E182AD69CA</string>
+			<string>1990CD6C-BEC4-491A-9A6C-CAD6BC5D21AC</string>
 		</dict>
-		<key>3C58662C-2A81-4395-8942-7315F5D9D1A0</key>
+		<key>2B5235F2-0C7A-45B4-854B-71EA9D59290F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -151,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>3C58662C-2A81-4395-8942-7315F5D9D1A0.xcactivitylog</string>
+			<string>2B5235F2-0C7A-45B4-854B-71EA9D59290F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +134,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714376866.57506299</real>
+			<real>714545922.19351494</real>
 			<key>timeStoppedRecording</key>
-			<real>714376867.07281005</real>
+			<real>714545922.92632902</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>3C58662C-2A81-4395-8942-7315F5D9D1A0</string>
+			<string>2B5235F2-0C7A-45B4-854B-71EA9D59290F</string>
 		</dict>
-		<key>63456AC3-9F34-4FEA-82E9-4FF8CEE3A796</key>
+		<key>31CC4FBF-C149-4C44-BA20-DE30C07D1E4F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -185,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>63456AC3-9F34-4FEA-82E9-4FF8CEE3A796.xcactivitylog</string>
+			<string>31CC4FBF-C149-4C44-BA20-DE30C07D1E4F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +168,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714373645.94134104</real>
+			<real>714547805.52235401</real>
 			<key>timeStoppedRecording</key>
-			<real>714373648.07029402</real>
+			<real>714547805.94904804</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>63456AC3-9F34-4FEA-82E9-4FF8CEE3A796</string>
+			<string>31CC4FBF-C149-4C44-BA20-DE30C07D1E4F</string>
 		</dict>
-		<key>694431FE-30EF-4579-88DE-03A702044C9C</key>
+		<key>3F3480A7-3676-4563-B348-72B433665A7E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -219,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>694431FE-30EF-4579-88DE-03A702044C9C.xcactivitylog</string>
+			<string>3F3480A7-3676-4563-B348-72B433665A7E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +202,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714374250.59208202</real>
+			<real>714462896.70943606</real>
 			<key>timeStoppedRecording</key>
-			<real>714374251.00994205</real>
+			<real>714462897.13003004</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>694431FE-30EF-4579-88DE-03A702044C9C</string>
+			<string>3F3480A7-3676-4563-B348-72B433665A7E</string>
 		</dict>
-		<key>6FBFA537-A7CC-43B5-A280-A0C1D443F8F9</key>
+		<key>740346A0-E444-4926-8A2D-2D015A092AB1</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -253,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>6FBFA537-A7CC-43B5-A280-A0C1D443F8F9.xcactivitylog</string>
+			<string>740346A0-E444-4926-8A2D-2D015A092AB1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +236,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714375830.71433103</real>
+			<real>714547555.603719</real>
 			<key>timeStoppedRecording</key>
-			<real>714375831.13742399</real>
+			<real>714547556.03342605</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>6FBFA537-A7CC-43B5-A280-A0C1D443F8F9</string>
+			<string>740346A0-E444-4926-8A2D-2D015A092AB1</string>
 		</dict>
-		<key>72222C0C-B312-456E-91B1-57173569AB8B</key>
+		<key>85B7F932-E79D-4FE5-9F26-379D7F50A3C3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -287,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>72222C0C-B312-456E-91B1-57173569AB8B.xcactivitylog</string>
+			<string>85B7F932-E79D-4FE5-9F26-379D7F50A3C3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +270,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714376133.21426702</real>
+			<real>714548383.40360105</real>
 			<key>timeStoppedRecording</key>
-			<real>714376133.645836</real>
+			<real>714548383.85926795</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>72222C0C-B312-456E-91B1-57173569AB8B</string>
+			<string>85B7F932-E79D-4FE5-9F26-379D7F50A3C3</string>
 		</dict>
-		<key>89413D23-067D-4C95-BCD3-2E5144255F8A</key>
+		<key>90DF42EA-C0A7-4199-A9BB-4B2152EB25EF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -321,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>89413D23-067D-4C95-BCD3-2E5144255F8A.xcactivitylog</string>
+			<string>90DF42EA-C0A7-4199-A9BB-4B2152EB25EF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,15 +304,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714377257.74274099</real>
+			<real>714546121.54635501</real>
 			<key>timeStoppedRecording</key>
-			<real>714377258.92945302</real>
+			<real>714546122.02073503</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>89413D23-067D-4C95-BCD3-2E5144255F8A</string>
+			<string>90DF42EA-C0A7-4199-A9BB-4B2152EB25EF</string>
 		</dict>
-		<key>B40301D8-849E-4244-B673-F1D76427EDC8</key>
+		<key>C792757D-4B13-43C7-B710-9DBB31E44EC8</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -355,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B40301D8-849E-4244-B673-F1D76427EDC8.xcactivitylog</string>
+			<string>C792757D-4B13-43C7-B710-9DBB31E44EC8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +338,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714374177.10985899</real>
+			<real>714548502.21746504</real>
 			<key>timeStoppedRecording</key>
-			<real>714374177.49579895</real>
+			<real>714548503.11050904</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>B40301D8-849E-4244-B673-F1D76427EDC8</string>
+			<string>C792757D-4B13-43C7-B710-9DBB31E44EC8</string>
 		</dict>
-		<key>BC319A04-7F53-4429-BC25-64B4F38B79E2</key>
+		<key>CBE3A9AD-D57B-4313-A5FA-37F60C23EBB6</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -389,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>BC319A04-7F53-4429-BC25-64B4F38B79E2.xcactivitylog</string>
+			<string>CBE3A9AD-D57B-4313-A5FA-37F60C23EBB6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,15 +372,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714375263.726403</real>
+			<real>714548508.88282597</real>
 			<key>timeStoppedRecording</key>
-			<real>714375264.19248903</real>
+			<real>714548509.51049495</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>BC319A04-7F53-4429-BC25-64B4F38B79E2</string>
+			<string>CBE3A9AD-D57B-4313-A5FA-37F60C23EBB6</string>
 		</dict>
-		<key>E633B983-08B6-411E-B964-4745325F8A9A</key>
+		<key>D2927EB5-FC0B-49C4-BBFB-651D258FA122</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -423,7 +389,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E633B983-08B6-411E-B964-4745325F8A9A.xcactivitylog</string>
+			<string>D2927EB5-FC0B-49C4-BBFB-651D258FA122.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -440,15 +406,15 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714375656.42959499</real>
+			<real>714548478.48378301</real>
 			<key>timeStoppedRecording</key>
-			<real>714375656.87354505</real>
+			<real>714548479.603984</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>E633B983-08B6-411E-B964-4745325F8A9A</string>
+			<string>D2927EB5-FC0B-49C4-BBFB-651D258FA122</string>
 		</dict>
-		<key>E7E9D878-D791-496C-81F6-56CD20CB808D</key>
+		<key>D76036C0-6E59-42A4-A996-19917FEAA3D2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -457,41 +423,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E7E9D878-D791-496C-81F6-56CD20CB808D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>CurrencyExchange project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>CurrencyExchange</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build CurrencyExchange</string>
-			<key>timeStartedRecording</key>
-			<real>714377275.59975195</real>
-			<key>timeStoppedRecording</key>
-			<real>714377280.24422002</real>
-			<key>title</key>
-			<string>Build CurrencyExchange</string>
-			<key>uniqueIdentifier</key>
-			<string>E7E9D878-D791-496C-81F6-56CD20CB808D</string>
-		</dict>
-		<key>EBEB933A-FA51-4D25-B73C-40A16396AD2D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>EBEB933A-FA51-4D25-B73C-40A16396AD2D.xcactivitylog</string>
+			<string>D76036C0-6E59-42A4-A996-19917FEAA3D2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -508,13 +440,13 @@
 			<key>signature</key>
 			<string>Build CurrencyExchange</string>
 			<key>timeStartedRecording</key>
-			<real>714376329.85336995</real>
+			<real>714548542.93947196</real>
 			<key>timeStoppedRecording</key>
-			<real>714376330.37233698</real>
+			<real>714548543.73731601</real>
 			<key>title</key>
 			<string>Build CurrencyExchange</string>
 			<key>uniqueIdentifier</key>
-			<string>EBEB933A-FA51-4D25-B73C-40A16396AD2D</string>
+			<string>D76036C0-6E59-42A4-A996-19917FEAA3D2</string>
 		</dict>
 	</dict>
 </dict>

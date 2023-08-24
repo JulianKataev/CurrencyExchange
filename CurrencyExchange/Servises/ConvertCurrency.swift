@@ -8,8 +8,8 @@ class ConvertCurrency: ConvertCurrencyProtocol {
     }
     
     func callAsFunction() -> Money {
-        let result = self.money.amount.value * self.exchangeRate.currencyPrice.value
-        let money = Money(currency: self.money.currency, amount: Amount(value: result))
+        let result = money.amount.value * exchangeRate.currencyPrice.value
+        let money = Money(currency: money.currency, amount: Amount(value: result))
         return money
     }
 }

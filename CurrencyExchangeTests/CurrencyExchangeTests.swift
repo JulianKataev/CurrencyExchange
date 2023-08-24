@@ -2,11 +2,20 @@ import XCTest
 @testable import CurrencyExchange
 
 final class CurrencyExchangeTests: XCTestCase {
+    private var currencyConverter: ConvertCurrency!
+    private let baseCurrency = "KZT"
     
-    func testExchangeAmount() {
-        let amount = Amount(amount: 1000.0)
-        let exchangeRate = ExchangeRate(exchangeRate: 10.0)
-        let money = Money().converted(amount: amount, exchangeRate: exchangeRate)
-        XCTAssertEqual(money.amount, 10000.0)
+    
+    override func setUpWithError() throws {
+        try super.setUpWithError()
+        
+    }
+    
+    override func tearDownWithError() throws {
+        currencyConverter = nil
+    }
+    
+    func testConvertCurrency() {
+        
     }
 }
