@@ -1,26 +1,18 @@
-//
-//  ViewController.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 31.07.2023.
-//
-
 import UIKit
 import Foundation
-
-protocol CurrencyExchangeViewControllerProtocol: AnyObject {
-    func updateAmountUzsTextLabel(with amountUsz: String)
-}
 
 class CurrencyExchangeViewController: UIViewController {
     @IBOutlet private var amountKztTextField: UITextField!
     @IBOutlet private var amountUzsLabel: UILabel!
     
+    private let fromCurrency = "KZT"
+    private let toCurrency = "UZS"
+    
     var presenter: CurrencyExchangePresenterInputProtocol?
     
     @IBAction func exchangeButtonDidTap() {
-        if let amountKzt = amountKztTextField.text {
-            presenter?.onConvertCurrency(amountString: amountKzt, fromCurrencyCode: "KZT", toCurrencyCode: "UZS")
+        if let string = amountKztTextField.text {
+            presenter?.convertCurrency(fromCurrencyCode: fromCurrency, toCurrencyCode: toCurrency, amountKztText: string)
         }
     }
 
@@ -32,9 +24,6 @@ class CurrencyExchangeViewController: UIViewController {
 
 extension CurrencyExchangeViewController: CurrencyExchangeViewControllerProtocol {
     func updateAmountUzsTextLabel(with amountUsz: String) {
-        DispatchQueue.main.async {
-            self.amountUzsLabel.text = amountUsz
-        }
+        self.amountUzsLabel.text = amountUsz
     }
 }
-

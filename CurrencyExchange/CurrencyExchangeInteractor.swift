@@ -1,27 +1,31 @@
-//
-//  CurrencyExchangeInteractor.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 01.08.2023.
-//
 import Foundation
-
-protocol CurrencyExchangeInteractorProtocol: AnyObject {
-    func execute(amount: Float, fromCurrencyCode: String, toCurrencyCode: String, complition: @escaping (Money) -> Void)
-}
 
 class CurrencyExchangeInteractor: CurrencyExchangeInteractorProtocol {
     weak var presenter: CurrencyExchangePresenterOutputProtocol?
-    private let apiCurrencyManager = APICurrencyManager.shared
+    private let currencyPriceRemoteApiManager: CurrencyPriceRemoteAPIProtocol
     
-    func execute(amount: Float, fromCurrencyCode: String, toCurrencyCode: String, complition: @escaping (Money) -> Void) {
-        let amount = Amount(amount: amount)
-        let currency = Currency(fromCurrency: fromCurrencyCode, toCurrency: toCurrencyCode)
-        
+    init(currencyPriceRemoteApiManager: CurrencyPriceRemoteAPIProtocol) {
+        self.currencyPriceRemoteApiManager = currencyPriceRemoteApiManager
+    }
+    
+    func execute(from baseCurrency: CurrencyCode, to targetCurrency: CurrencyCode, amount: Amount) {
         DispatchQueue.global().async {
-            self.apiCurrencyManager.getExchangeRate(currency: currency) { exchangeRate in
-                let convert = Money().converted(amount: amount, exchangeRate: exchangeRate)
-                complition(convert)
+            self.currencyPriceRemoteApiManager.getCurrencyPrice(from: baseCurrency,
+                                                                to: targetCurrency) { [weak self] result in
+                DispatchQueue.main.async {
+                    switch result {
+                    case .success(let currencyPrice):
+                        let money = Money(currency: baseCurrency, amount: amount)
+                        let exchangeRate = ExchangeRate(fromCurrency: baseCurrency,
+                                                        toCurrency: targetCurrency,
+                                                        currencyPrice: currencyPrice)
+                        let converted = ConvertCurrency(exchangeRate: exchangeRate, money: money)
+                            .callAsFunction()
+                        self?.presenter?.showConvertedMoney(money: converted)
+                    case .failure(let error):
+                        self?.presenter?.showError(error)
+                    }
+                }
             }
         }
     }

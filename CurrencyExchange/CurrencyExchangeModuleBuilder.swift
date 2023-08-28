@@ -1,21 +1,16 @@
-//
-//  CurrencyExchangeModuleBuilder.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 01.08.2023.
-//
-
 import UIKit
 
 class CurrencyExchangeModuleBuilder {
-    func build() -> CurrencyExchangeViewController {
-        let presenter = CurrencyExchangePresenter()
-        let interactor = CurrencyExchangeInteractor()
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "Main") as! CurrencyExchangeViewController
+    static func build() -> CurrencyExchangeViewController {
+        let urlProvider = URLProvider()
+        let currencyPriceRemoteApiManager = CurrencyPriceRemoteAPI(urlProvider: urlProvider)
+        let interactor = CurrencyExchangeInteractor(currencyPriceRemoteApiManager: currencyPriceRemoteApiManager)
+        let storyboard = UIStoryboard(name: CurrencyExchangeConstants.MAIN_SB_NAME, bundle: nil)
+        let viewController = storyboard.instantiateViewController(
+            withIdentifier: CurrencyExchangeConstants.MAIN_VC_ID
+        ) as! CurrencyExchangeViewController 
+        let presenter = CurrencyExchangePresenter(view: viewController, interactor: interactor)
         viewController.presenter = presenter
-        presenter.interactor = interactor
-        presenter.view = viewController
         interactor.presenter = presenter
         return viewController
     }

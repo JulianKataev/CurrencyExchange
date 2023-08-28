@@ -1,46 +1,52 @@
-//
-//  CurrencyExchangePresenter.swift
-//  CurrencyExchange
-//
-//  Created by Юлиан Катаев on 31.07.2023.
-//
-
-protocol CurrencyExchangePresenterInputProtocol: AnyObject {
-    func viewDidLoad()
-    func onConvertCurrency(amountString: String, fromCurrencyCode: String, toCurrencyCode: String)
-}
-
-protocol CurrencyExchangePresenterOutputProtocol: AnyObject {
-    func showConvertedCurrency(amountFloat: Float)
-}
-
 class CurrencyExchangePresenter {
-    weak var view: CurrencyExchangeViewControllerProtocol?
-    var interactor: CurrencyExchangeInteractorProtocol?
+    private weak var view: CurrencyExchangeViewControllerProtocol?
+    private var interactor: CurrencyExchangeInteractorProtocol
+    private let placeholder = "Введи сумму в тенге"
+    private let stringFormatter = "%.2f"
+    
+    init(view: CurrencyExchangeViewControllerProtocol, interactor: CurrencyExchangeInteractorProtocol) {
+        self.view = view
+        self.interactor = interactor
+    }
 }
 
 extension CurrencyExchangePresenter: CurrencyExchangePresenterInputProtocol {
-    func viewDidLoad() {
-        view?.updateAmountUzsTextLabel(with: "Введи сумму в тенге")
+    func convertCurrency(fromCurrencyCode: String, toCurrencyCode: String, amountKztText: String) {
+        if let amount = Double(amountKztText) {
+            interactor.execute(from: CurrencyCode(value: fromCurrencyCode),
+                               to: CurrencyCode(value: toCurrencyCode),
+                               amount: Amount(value: amount))
+        } else {
+            view?.updateAmountUzsTextLabel(with: placeholder)
+        }
     }
     
-    func onConvertCurrency(amountString: String, fromCurrencyCode: String, toCurrencyCode: String) {
-        guard let amount = Float(amountString) else {
-            view?.updateAmountUzsTextLabel(with: "Введи сумму в тенге")
-            return
-        }
-        
-        self.interactor?.execute(amount: amount, fromCurrencyCode: fromCurrencyCode, toCurrencyCode: toCurrencyCode, complition: { money in
-            if let currency = money.amount {
-                self.showConvertedCurrency(amountFloat: currency)
-            }
-        })
+    func viewDidLoad() {
+        view?.updateAmountUzsTextLabel(with: placeholder)
     }
 }
 
 extension CurrencyExchangePresenter: CurrencyExchangePresenterOutputProtocol {
-    func showConvertedCurrency(amountFloat: Float) {
-        let string = String(format: "%.2f", amountFloat)
+    func showConvertedMoney(money: Money) {
+        let string = String(format: stringFormatter, money.amount.value)
         view?.updateAmountUzsTextLabel(with: string)
+    }
+    
+    func showError(_ error: RemoteAPIErrors) {
+        let unsupportedURLFormat = "Ошибка формата"
+        let networkUnavailable = "Нет подключения к интернету"
+        let invalidResponse = "Сервис недоступен"
+        let invalidData = "Ошибка формата"
+        
+        switch error {
+        case .unsupportedURLFormat:
+            view?.updateAmountUzsTextLabel(with: unsupportedURLFormat)
+        case .networkUnavailable:
+            view?.updateAmountUzsTextLabel(with: networkUnavailable)
+        case .invalidResponse:
+            view?.updateAmountUzsTextLabel(with: invalidResponse)
+        case .invalidData:
+            view?.updateAmountUzsTextLabel(with: invalidData)
+        }
     }
 }
