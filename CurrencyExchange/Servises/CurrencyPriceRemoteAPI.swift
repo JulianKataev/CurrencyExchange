@@ -7,34 +7,44 @@ class CurrencyPriceRemoteAPI: CurrencyPriceRemoteAPIProtocol {
     init(urlProvider: URLProviderProtocol) {
         self.urlProvider = urlProvider
     }
-    
-    enum RemoteAPIErrors: Error {
-        case noData
-        case networkUnavailable
-        case unsupportedURLFormat
-        case jsonError
-    }
 
     func getCurrencyPrice(from baseCurrency: CurrencyCode,
                           to targetCurrency: CurrencyCode,
-                          completion: @escaping (Result<CurrencyPrice, Error>) -> Void) {
+                          completion: @escaping (Result<CurrencyPrice, RemoteAPIErrors>) -> Void) {
         
         guard let url = try? urlProvider.getUrl(with: baseCurrency).get() else {
-            return completion(.failure(RemoteAPIErrors.unsupportedURLFormat))
+            completion(.failure(.unsupportedURLFormat))
+            return
         }
         
         let request = URLRequest(url: url)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
-            guard error != nil else { return completion(.failure(RemoteAPIErrors.noData)) }
-            guard let data else { return completion(.failure(RemoteAPIErrors.noData)) }
+            guard error == nil else {
+                completion(.failure(.networkUnavailable))
+                return
+            }
             
-            if let currencyData = try? JSONDecoder().decode(CurrencyPriceResponsePayload.self, from: data) {
+            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+                completion(.failure(.invalidResponse))
+                return
+            }
+            
+            guard let data = data else {
+                completion(.failure(.invalidData))
+                return
+            }
+            
+            do {
+                let currencyData = try JSONDecoder().decode(CurrencyPriceResponsePayload.self, from: data)
+                
                 if let currencyPrice = currencyData.rates[targetCurrency.value] {
                     completion(.success(CurrencyPrice(value: currencyPrice)))
+                } else {
+                    completion(.failure(.invalidData))
                 }
-            } else {
-                completion(.failure(RemoteAPIErrors.jsonError))
+            } catch {
+                completion(.failure(.invalidData))
             }
         }
         task.resume()

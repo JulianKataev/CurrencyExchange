@@ -35,6 +35,8 @@
 		B2998C392A7AD01A00EE5586 /* CurrencyExchangeInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2998C382A7AD01A00EE5586 /* CurrencyExchangeInteractorProtocol.swift */; };
 		B2998C3B2A7AD04400EE5586 /* CurrencyExchangeViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2998C3A2A7AD04400EE5586 /* CurrencyExchangeViewControllerProtocol.swift */; };
 		B2C09A962A7B759200328138 /* CurrencyPriceRemoteAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C09A952A7B759200328138 /* CurrencyPriceRemoteAPIProtocol.swift */; };
+		B2CC89AB2A99E7AE00FD051C /* RemoteAPIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CC89AA2A99E7AE00FD051C /* RemoteAPIErrors.swift */; };
+		B2CC89AD2A99E8D300FD051C /* URLProviderErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CC89AC2A99E8D300FD051C /* URLProviderErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		B2998C382A7AD01A00EE5586 /* CurrencyExchangeInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExchangeInteractorProtocol.swift; sourceTree = "<group>"; };
 		B2998C3A2A7AD04400EE5586 /* CurrencyExchangeViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExchangeViewControllerProtocol.swift; sourceTree = "<group>"; };
 		B2C09A952A7B759200328138 /* CurrencyPriceRemoteAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPriceRemoteAPIProtocol.swift; sourceTree = "<group>"; };
+		B2CC89AA2A99E7AE00FD051C /* RemoteAPIErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAPIErrors.swift; sourceTree = "<group>"; };
+		B2CC89AC2A99E8D300FD051C /* URLProviderErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProviderErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,8 @@
 				B274E0762A78D1420025E8B5 /* CurrencyPriceRemoteAPI.swift */,
 				B23A12262A88B6A5002DD752 /* URLProvider.swift */,
 				B23A12302A89FAB5002DD752 /* ConvertCurrency.swift */,
+				B2CC89AA2A99E7AE00FD051C /* RemoteAPIErrors.swift */,
+				B2CC89AC2A99E8D300FD051C /* URLProviderErrors.swift */,
 			);
 			path = Servises;
 			sourceTree = "<group>";
@@ -310,6 +316,7 @@
 				B298DC302A95CD8E000BE89E /* SupportedCurrencyCodes.swift in Sources */,
 				B274E0752A78CE490025E8B5 /* CurrencyExchangeInteractor.swift in Sources */,
 				B274E0452A7847630025E8B5 /* CurrencyExchangeViewController.swift in Sources */,
+				B2CC89AD2A99E8D300FD051C /* URLProviderErrors.swift in Sources */,
 				B274E07F2A78D2600025E8B5 /* Amount.swift in Sources */,
 				B2998C372A7ACE3100EE5586 /* CurrencyExchangeConstants.swift in Sources */,
 				B23A122F2A89F635002DD752 /* ConvertCurrencyProtocol.swift in Sources */,
@@ -324,6 +331,7 @@
 				B274E0892A78D2B20025E8B5 /* ExchangeRate.swift in Sources */,
 				B23A122D2A89F5E7002DD752 /* CurrencyPrice.swift in Sources */,
 				B2998C392A7AD01A00EE5586 /* CurrencyExchangeInteractorProtocol.swift in Sources */,
+				B2CC89AB2A99E7AE00FD051C /* RemoteAPIErrors.swift in Sources */,
 				B274E0772A78D1420025E8B5 /* CurrencyPriceRemoteAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

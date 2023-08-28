@@ -10,15 +10,21 @@ class CurrencyExchangeInteractor: CurrencyExchangeInteractorProtocol {
     
     func execute(from baseCurrency: CurrencyCode, to targetCurrency: CurrencyCode, amount: Amount) {
         DispatchQueue.global().async {
-            self.currencyPriceRemoteApiManager.getCurrencyPrice(from: baseCurrency, to: targetCurrency) { [weak self] price in
+            self.currencyPriceRemoteApiManager.getCurrencyPrice(from: baseCurrency,
+                                                                to: targetCurrency) { [weak self] result in
                 DispatchQueue.main.async {
-                    let money = Money(currency: baseCurrency, amount: amount)
-                    let exchangeRate = ExchangeRate(fromCurrency: baseCurrency,
-                                                    toCurrency: targetCurrency,
-                                                    currencyPrice: price)
-                    let converted = ConvertCurrency(exchangeRate: exchangeRate, money: money)
-                        .callAsFunction()
-                    self?.presenter?.showConvertedMoney(money: converted)
+                    switch result {
+                    case .success(let currencyPrice):
+                        let money = Money(currency: baseCurrency, amount: amount)
+                        let exchangeRate = ExchangeRate(fromCurrency: baseCurrency,
+                                                        toCurrency: targetCurrency,
+                                                        currencyPrice: currencyPrice)
+                        let converted = ConvertCurrency(exchangeRate: exchangeRate, money: money)
+                            .callAsFunction()
+                        self?.presenter?.showConvertedMoney(money: converted)
+                    case .failure(let error):
+                        self?.presenter?.showError(error)
+                    }
                 }
             }
         }

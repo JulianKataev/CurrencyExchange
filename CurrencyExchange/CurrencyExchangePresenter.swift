@@ -31,4 +31,22 @@ extension CurrencyExchangePresenter: CurrencyExchangePresenterOutputProtocol {
         let string = String(format: stringFormatter, money.amount.value)
         view?.updateAmountUzsTextLabel(with: string)
     }
+    
+    func showError(_ error: RemoteAPIErrors) {
+        let unsupportedURLFormat = "Ошибка формата"
+        let networkUnavailable = "Нет подключения к интернету"
+        let invalidResponse = "Сервис недоступен"
+        let invalidData = "Ошибка формата"
+        
+        switch error {
+        case .unsupportedURLFormat:
+            view?.updateAmountUzsTextLabel(with: unsupportedURLFormat)
+        case .networkUnavailable:
+            view?.updateAmountUzsTextLabel(with: networkUnavailable)
+        case .invalidResponse:
+            view?.updateAmountUzsTextLabel(with: invalidResponse)
+        case .invalidData:
+            view?.updateAmountUzsTextLabel(with: invalidData)
+        }
+    }
 }
